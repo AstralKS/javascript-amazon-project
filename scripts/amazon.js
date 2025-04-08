@@ -43,7 +43,7 @@ products.forEach((product) => {
 
       <div class="added-to-cart js-added-to-cart-${product.id}">
         <img src="images/icons/checkmark.png">
-        Added
+        ${product.name} Added to cart
       </div>
 
       <button class="add-to-cart-button button-primary js-add-to-cart"
@@ -103,9 +103,9 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
         
         addedMessage.classList.add('added-to-cart-visible');
 
-        const previousTimeoutId = addedMessageTimeouts[productId];
-      if (previousTimeoutId) {
-          clearTimeout(previousTimeoutId);
+        //const previousTimeoutId = addedMessageTimeouts[productId];
+      if (addedMessageTimeoutId) {
+          clearTimeout(addedMessageTimeoutId);
         }
 
       const timeoutId = setTimeout(() => {
@@ -113,5 +113,6 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
       }, 2000);
 
       addedMessageTimeouts[productId] = timeoutId;
+      console.log(cart)
     });
 });

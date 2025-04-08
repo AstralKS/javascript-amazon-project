@@ -137,7 +137,9 @@
   display: flex;
   align-items: center;
   margin-bottom: 8px;
-
+  opacity: 0;
+}
+.added-to-cart-visible {
   opacity: 1;
 }
 
