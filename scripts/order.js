@@ -61,7 +61,6 @@ export function renderOrdersByDeliveryDate() {
         <div class="order-details-grid">
     `;
     
-    // Add items for this delivery date
     group.items.forEach((item) => {
       ordersHTML += `
         <div class="product-image-container">
@@ -82,7 +81,6 @@ export function renderOrdersByDeliveryDate() {
         </div>
 
         <div class="product-actions">
-          <a href="tracking.html?productId=${item.productId}">
             <button class="track-package-button button-secondary">
               Track package
             </button>
