@@ -62,7 +62,7 @@ javascript-amazon-project/
 - **Order Summary & Payment Integration**: Provides a complete checkout experience, not just a cart view.
 - **Better Error Handling**: Includes input validation (e.g., quantity limits) and user-friendly alerts.
 
-## Why This Project has improved
+## Why This Project has Improved
 - **User-centric features**: More interactive, real-time updates, and a complete shopping flow.
 - **Cleaner architecture**: Easier to extend and maintain.
 - **Modern look and feel**: Closer to the real Amazon experience, with attention to detail in UI/UX.
