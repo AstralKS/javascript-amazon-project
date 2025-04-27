@@ -35,7 +35,7 @@ javascript-amazon-project/
 ## How to Run
 1. Clone the repository:
    ```
-   git clone https://github.com/Singhkeshav4/javascript-amazon-project.git
+   git clone https://github.com/AstralKS/javascript-amazon-project.git
    ```
 2. Open `amazon.html` in your browser.
 
@@ -62,7 +62,7 @@ javascript-amazon-project/
 - **Order Summary & Payment Integration**: Provides a complete checkout experience, not just a cart view.
 - **Better Error Handling**: Includes input validation (e.g., quantity limits) and user-friendly alerts.
 
-## Why This Project is Better
+## Why This Project has improved
 - **User-centric features**: More interactive, real-time updates, and a complete shopping flow.
 - **Cleaner architecture**: Easier to extend and maintain.
 - **Modern look and feel**: Closer to the real Amazon experience, with attention to detail in UI/UX.
